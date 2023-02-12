@@ -61,67 +61,63 @@ The project makes use of the python cmd model to manage the objects of our proje
 
 **Our shell will work like this in interactive mode:**
 
-<code>
-$ ./console.py
-(hbnb) help
-
-Documented commands (type help <topic>):
-========================================
-EOF  help  quit
-
-(hbnb) 
-(hbnb) 
-(hbnb) quit
-$
-</code>
+    $ ./console.py
+    (hbnb) help
+    
+    Documented commands (type help <topic>):
+    ========================================
+    EOF  help  quit
+    
+    (hbnb) 
+    (hbnb) 
+    (hbnb) quit
+    $
 
 **But also in non-interactive mode:**
 
-<code>
-$ echo "help" | ./console.py
-(hbnb)
-
-Documented commands (type help <topic>):
-========================================
-EOF  help  quit
-(hbnb) 
-$
-$ cat test_help
-help
-$
-$ cat test_help | ./console.py
-(hbnb)
-
-Documented commands (type help <topic>):
-========================================
-EOF  help  quit
-(hbnb) 
-$
-</code>
+    $ echo "help" | ./console.py
+    (hbnb)
+    
+    Documented commands (type help <topic>):
+    ========================================
+    EOF  help  quit
+    (hbnb) 
+    $
+    $ cat test_help
+    help
+    $
+    $ cat test_help | ./console.py
+    (hbnb)
+    
+    Documented commands (type help <topic>):
+    ========================================
+    EOF  help  quit
+    (hbnb) 
+    $
 
 
 **how to start it**
-> ./console.py
+    ./console.py
 
 
 **How to use it**
-<code>
-(hbnb) help
 
-Documented commands (type help <topic>):
-========================================
-EOF  help  quit
+    (hbnb) help
 
-help quit
-Quit command to exit the program
+    Documented commands (type help <topic>):
+    ========================================
+    EOF  help  quit
+    
+    help quit
+    Quit command to exit the program
+    
+    
+    (hbnb)
+    (hbnb)
+    (hbnb)
+    (hbnb) quit
+    guillaume@ubuntu:~/AirBnB$ 
 
-
-(hbnb)
-(hbnb)
-(hbnb)
-(hbnb) quit
-guillaume@ubuntu:~/AirBnB$ 
-</code>
 
 # concepts
 
