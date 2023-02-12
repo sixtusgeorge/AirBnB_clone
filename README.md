@@ -97,7 +97,7 @@ The project makes use of the python cmd model to manage the objects of our proje
 
 
 **how to start it**
-    ./console.py
+> ./console.py
 
 
 **How to use it**
