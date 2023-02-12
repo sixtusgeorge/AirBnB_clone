@@ -1,7 +1,6 @@
 # 0x00. AirBnB clone - The console
 
-The goal of the project is to deploy on our server a simple copy of the AirBnB website. We 
-are not implement all the features of the website, only some of them to cover all fundamental concepts of the higher level programming track. This is part of ALX SE program certification projects.
+The goal of the project is to deploy on our server a simple copy of the [AirBnB Website](https://www.airbnb.com/). We are not to implement all the features of the website, only some of them to cover all fundamental concepts of the higher level programming track. This is part of ALX SE certification projects.
 
 At the end of the project, we will have a complete web application composed by:
 
@@ -13,7 +12,7 @@ At the end of the project, we will have a complete web application composed by:
 
 ## Steps
 
-We build this application but step by step.
+We will build this application step by step.
 
 Each step will link to a concept:
 
@@ -62,39 +61,43 @@ The project makes use of the python cmd model to manage the objects of our proje
 
 **Our shell will work like this in interactive mode:**
 
-> $ ./console.py
-> (hbnb) help
->
-> Documented commands (type help <topic>):
-> ========================================
-> EOF  help  quit
->
-> (hbnb) 
-> (hbnb) 
-> (hbnb) quit
-> $
+``
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
+``
 
 **But also in non-interactive mode:**
 
-> $ echo "help" | ./console.py
-> (hbnb)
->
-> Documented commands (type help <topic>):
-> ========================================
-> EOF  help  quit
-> (hbnb) 
-> $
-> $ cat test_help
-> help
-> $
-> $ cat test_help | ./console.py
-> (hbnb)
->
-> Documented commands (type help <topic>):
-> ========================================
-> EOF  help  quit
-> (hbnb) 
-> $
+``
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+``
 
 
 **how to start it**
@@ -102,22 +105,23 @@ The project makes use of the python cmd model to manage the objects of our proje
 
 
 **How to use it**
-> (hbnb) help
-> 
-> Documented commands (type help <topic>):
-> ========================================
-> EOF  help  quit
->
-> help quit
-> Quit command to exit the program
->
->
-> (hbnb)
-> (hbnb)
-> (hbnb)
-> (hbnb) quit
-> guillaume@ubuntu:~/AirBnB$ 
+``
+(hbnb) help
 
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+help quit
+Quit command to exit the program
+
+
+(hbnb)
+(hbnb)
+(hbnb)
+(hbnb) quit
+guillaume@ubuntu:~/AirBnB$ 
+``
 
 # concepts
 
