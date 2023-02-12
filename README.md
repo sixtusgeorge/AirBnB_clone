@@ -61,7 +61,7 @@ The project makes use of the python cmd model to manage the objects of our proje
 
 **Our shell will work like this in interactive mode:**
 
-``
+<code>
 $ ./console.py
 (hbnb) help
 
@@ -73,11 +73,11 @@ EOF  help  quit
 (hbnb) 
 (hbnb) quit
 $
-``
+</code>
 
 **But also in non-interactive mode:**
 
-``
+<code>
 $ echo "help" | ./console.py
 (hbnb)
 
@@ -97,7 +97,7 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb) 
 $
-``
+</code>
 
 
 **how to start it**
@@ -105,7 +105,7 @@ $
 
 
 **How to use it**
-``
+<code>
 (hbnb) help
 
 Documented commands (type help <topic>):
@@ -121,7 +121,7 @@ Quit command to exit the program
 (hbnb)
 (hbnb) quit
 guillaume@ubuntu:~/AirBnB$ 
-``
+</code>
 
 # concepts
 
